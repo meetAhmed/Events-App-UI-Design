@@ -23,12 +23,12 @@ extension OnboardingService {
             .init(
                 image: "OnboardingImage2",
                 title: "Web Have Modern Events Calendar Feature",
-                subtitle: "Sed ut perspiciatis unde omnis iste natus"
+                subtitle: "Sed ut perspiciatis unde omnis iste natus voluptatem laudantium sit"
             ),
             .init(
                 image: "OnboardingImage3",
                 title: "To Look Up More Events or Activities Nearby By Map",
-                subtitle: "Sit voluptatem accusantium doloremque laudantium"
+                subtitle: "Sit voluptatem accusantium doloremque laudantium perspiciatis unde omn"
             )
         ]
     }
