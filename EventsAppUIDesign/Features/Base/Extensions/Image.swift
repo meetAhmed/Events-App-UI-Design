@@ -51,4 +51,24 @@ extension Image {
     static var eventImage1: Image {
         Image("EventImage1")
     }
+    
+    static var inviteFriends: Image {
+        Image("InviteFriends")
+    }
+    
+    static var eventCoverImage: Image {
+        Image("EventCoverImage")
+    }
+    
+    static var eventDateIcon: Image {
+        Image("EventDateIcon")
+    }
+    
+    static var eventLocationIcon: Image {
+        Image("EventLocationIcon")
+    }
+    
+    static var eventOrganizerIcon: Image {
+        Image("EventOrganizerIcon")
+    }
 }

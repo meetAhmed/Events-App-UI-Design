@@ -10,4 +10,5 @@ import Foundation
 class HomeViewModel: ObservableObject {
     @Published var searchText = ""
     @Published var categories = CategoryService.instance.getCategories()
+    @Published var showDetailView = false
 }
