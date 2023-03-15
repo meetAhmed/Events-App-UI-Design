@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F125FE5F29C1CF07008CAD83 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125FE5E29C1CF07008CAD83 /* SideMenuView.swift */; };
+		F125FE6329C1DB2A008CAD83 /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125FE6229C1DB2A008CAD83 /* SideMenuItem.swift */; };
+		F125FE6529C1DB43008CAD83 /* SideMenuItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125FE6429C1DB43008CAD83 /* SideMenuItemView.swift */; };
+		F125FE6829C1DC71008CAD83 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125FE6729C1DC71008CAD83 /* ProfileView.swift */; };
+		F125FE6A29C1E521008CAD83 /* ProfileEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125FE6929C1E521008CAD83 /* ProfileEventView.swift */; };
+		F125FE6C29C1E727008CAD83 /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125FE6B29C1E727008CAD83 /* ReviewView.swift */; };
+		F125FE6F29C1EA25008CAD83 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F125FE6E29C1EA25008CAD83 /* EmptyView.swift */; };
 		F17D223829BB3EE7007E70AD /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D223729BB3EE7007E70AD /* Color.swift */; };
 		F17D223A29BB3FC2007E70AD /* RectangleWithBottomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D223929BB3FC2007E70AD /* RectangleWithBottomCorners.swift */; };
 		F17D223C29BB40E6007E70AD /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17D223B29BB40E6007E70AD /* Image.swift */; };
@@ -28,6 +35,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F125FE5E29C1CF07008CAD83 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		F125FE6229C1DB2A008CAD83 /* SideMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
+		F125FE6429C1DB43008CAD83 /* SideMenuItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuItemView.swift; sourceTree = "<group>"; };
+		F125FE6729C1DC71008CAD83 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F125FE6929C1E521008CAD83 /* ProfileEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEventView.swift; sourceTree = "<group>"; };
+		F125FE6B29C1E727008CAD83 /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
+		F125FE6E29C1EA25008CAD83 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
 		F17D223729BB3EE7007E70AD /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F17D223929BB3FC2007E70AD /* RectangleWithBottomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleWithBottomCorners.swift; sourceTree = "<group>"; };
 		F17D223B29BB40E6007E70AD /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -60,6 +74,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F125FE5D29C1CEEF008CAD83 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				F125FE6129C1DB1E008CAD83 /* View */,
+				F125FE6029C1DB13008CAD83 /* Model */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		F125FE6029C1DB13008CAD83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F125FE6229C1DB2A008CAD83 /* SideMenuItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F125FE6129C1DB1E008CAD83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F125FE5E29C1CF07008CAD83 /* SideMenuView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F125FE6629C1DC59008CAD83 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F125FE6729C1DC71008CAD83 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		F17D223629BB3EB0007E70AD /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,8 +187,10 @@
 			children = (
 				F1A7297E29B9F462003F7CD4 /* Base */,
 				F1A7298129B9F473003F7CD4 /* Onboarding */,
+				F125FE5D29C1CEEF008CAD83 /* SideMenu */,
 				F1A7299029B9FFA6003F7CD4 /* Home */,
 				F182AE7629C08682008BD576 /* EventDetails */,
+				F125FE6629C1DC59008CAD83 /* Profile */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -171,6 +220,10 @@
 				F17D223929BB3FC2007E70AD /* RectangleWithBottomCorners.swift */,
 				F182AE7229C0845B008BD576 /* CategoryView.swift */,
 				F182AE7429C08498008BD576 /* UpcomingEventView.swift */,
+				F125FE6429C1DB43008CAD83 /* SideMenuItemView.swift */,
+				F125FE6929C1E521008CAD83 /* ProfileEventView.swift */,
+				F125FE6B29C1E727008CAD83 /* ReviewView.swift */,
+				F125FE6E29C1EA25008CAD83 /* EmptyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -300,17 +353,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1A7297029B9F44C003F7CD4 /* EventsAppUIDesignApp.swift in Sources */,
+				F125FE5F29C1CF07008CAD83 /* SideMenuView.swift in Sources */,
+				F125FE6329C1DB2A008CAD83 /* SideMenuItem.swift in Sources */,
 				F1A7299229B9FFC7003F7CD4 /* HomeView.swift in Sources */,
+				F125FE6F29C1EA25008CAD83 /* EmptyView.swift in Sources */,
 				F1A7298F29B9FDA9003F7CD4 /* OnboardingViewModel.swift in Sources */,
 				F17D224629BB4A6C007E70AD /* CategoryService.swift in Sources */,
 				F182AE7829C08697008BD576 /* EventDetailsView.swift in Sources */,
 				F1A7298529B9F5E5003F7CD4 /* RectangleWithTopCorners.swift in Sources */,
+				F125FE6C29C1E727008CAD83 /* ReviewView.swift in Sources */,
 				F1A7298929B9FCD1003F7CD4 /* Onboarding.swift in Sources */,
 				F17D223829BB3EE7007E70AD /* Color.swift in Sources */,
 				F1A7298329B9F4A5003F7CD4 /* OnboardingView.swift in Sources */,
 				F182AE7329C0845B008BD576 /* CategoryView.swift in Sources */,
+				F125FE6829C1DC71008CAD83 /* ProfileView.swift in Sources */,
+				F125FE6529C1DB43008CAD83 /* SideMenuItemView.swift in Sources */,
 				F17D223A29BB3FC2007E70AD /* RectangleWithBottomCorners.swift in Sources */,
 				F1A7298C29B9FD11003F7CD4 /* OnboardingService.swift in Sources */,
+				F125FE6A29C1E521008CAD83 /* ProfileEventView.swift in Sources */,
 				F17D224329BB4A3C007E70AD /* HomeViewModel.swift in Sources */,
 				F17D223C29BB40E6007E70AD /* Image.swift in Sources */,
 				F17D224029BB49FA007E70AD /* Category.swift in Sources */,

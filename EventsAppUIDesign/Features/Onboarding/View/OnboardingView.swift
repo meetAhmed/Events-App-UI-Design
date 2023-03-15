@@ -74,7 +74,7 @@ struct OnboardingView: View {
             .multilineTextAlignment(.center)
         }
         .fullScreenCover(isPresented: $vm.showHomeView) {
-            HomeView()
+            SideMenuView()
         }
     }
 }

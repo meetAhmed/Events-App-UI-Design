@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     @StateObject private var vm = HomeViewModel()
+    var onDrawerIconTap: () -> Void
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -29,7 +30,9 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        HomeView {
+            
+        }
     }
 }
 
@@ -38,6 +41,9 @@ private extension HomeView {
         VStack(spacing: 10) {
             HStack {
                 Image.sideNavBtn
+                    .onTapGesture {
+                        onDrawerIconTap()
+                    }
                 Spacer()
                 VStack {
                     HStack {
